@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	server := NewAPIServer
+	server := NewAPIServer(":3000")
 }
